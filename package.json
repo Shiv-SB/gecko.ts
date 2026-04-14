@@ -1,0 +1,20 @@
+{
+  "name": "builder",
+  "module": "index.ts",
+  "type": "module",
+  "bin": {
+    "build-framework": "./dist/cli.js"
+  },
+  "scripts": {
+    "build": "bun run scripts/build.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "ts-humanize": "^1.0.2"
+  }
+}
