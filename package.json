@@ -1,6 +1,7 @@
 {
   "name": "builder",
   "module": "index.ts",
+  "version": "0.0.1",
   "type": "module",
   "bin": {
     "build-framework": "./dist/cli.js"
