@@ -10,7 +10,7 @@ export const buildStep: BuildStep = {
       outdir: "build",
       splitting: true,
       format: "esm",
-      target: "node",
+      target: "bun",
       metafile: true
     });
 
